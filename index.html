@@ -211,7 +211,7 @@
             onEachFeature: function (feature, layer) {
                 // variable popup content
                 var popup_content = "Fungsi: " + feature.properties.FUNGSI_JAL + "<br>" +
-                    "Panjang (m): " + feature.properties.panjang_m;
+                    "Panjang (m): " + feature.properties.Panjang_m;
 
                 layer.on({
                     click: function (e) {
@@ -375,7 +375,7 @@
             onAdd: function (map) {
                 var img = L.DomUtil.create('img');
 
-                img.src = 'icon/logougm.png';
+                img.src = 'icon/logoSV.png';
                 img.style.width = '200px';
 
                 return img;
